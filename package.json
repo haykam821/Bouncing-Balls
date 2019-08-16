@@ -1,14 +1,29 @@
 {
-  "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-haykam": "^1.8.0",
-    "eslint-plugin-extra-rules": "0.0.0-development",
-    "eslint-plugin-html": "^6.0.0",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-markdown": "^1.0.0",
-    "eslint-plugin-unicorn": "^10.0.0"
-  },
-  "scripts": {
-	  "lint": "eslint \"./**/*.js\""
-  }
+	"devDependencies": {
+		"eslint": "^6.1.0",
+		"eslint-config-haykam": "^1.8.0",
+		"eslint-plugin-extra-rules": "0.0.0-development",
+		"eslint-plugin-html": "^6.0.0",
+		"eslint-plugin-json": "^1.4.0",
+		"eslint-plugin-markdown": "^1.0.0",
+		"eslint-plugin-unicorn": "^10.0.0"
+	},
+	"scripts": {
+		"lint": "eslint \"./**/*.js\""
+	},
+	"name": "bouncing-balls",
+	"description": "Just a bouncing balls simulation.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/haykam821/Bouncing-Balls.git"
+	},
+	"author": "haykam821",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/haykam821/Bouncing-Balls/issues"
+	},
+	"homepage": "https://github.com/haykam821/Bouncing-Balls#readme"
 }
