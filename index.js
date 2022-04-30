@@ -51,7 +51,6 @@ class Ball {
 
 		if (this.x < 0) {
 			this.angle = bounceAngle(this.angle, 90);
-
 		}
 		if (this.y < 0) {
 			this.angle = bounceAngle(this.angle, 180);
@@ -76,14 +75,14 @@ const ents = [new Ball(can.width / 2, can.height / 2)];
  * Renders the canvas.
  */
 function render() {
-	for (let index = 0; index < ents.length; index++) {
-		ents[index].tick();
-		debug.innerText = `X: ${ents[index].x}, Y: ${ents[index].y}, angle: ${ents[index].angle}`;
+	for (const ent of ents) {
+		ent.tick();
+		debug.innerText = `X: ${ent.x}, Y: ${ent.y}, angle: ${ent.angle}`;
 
 		ctx.clearRect(0, 0, can.width, can.height);
 
 		ctx.save();
-		ents[index].render(ctx);
+		ent.render(ctx);
 		ctx.restore();
 	}
 
