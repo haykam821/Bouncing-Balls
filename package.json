@@ -20,5 +20,8 @@
 	"bugs": {
 		"url": "https://github.com/haykam821/Bouncing-Balls/issues"
 	},
-	"homepage": "https://github.com/haykam821/Bouncing-Balls#readme"
+	"homepage": "https://github.com/haykam821/Bouncing-Balls#readme",
+	"eslintConfig": {
+		"extends": "eslint-config-haykam"
+	}
 }
